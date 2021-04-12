@@ -1,9 +1,10 @@
 #include<stdio.h>
 void main()
 {
-	printf("Hello world");
-	printf("hiiiiiiiiii");
-	if(a==a)
-		printf("poda poolu");
-	
-	}
+	int n=10;
+	if(n>>15)
+        printf("odd");
+    else
+        printf("even");
+
+}
